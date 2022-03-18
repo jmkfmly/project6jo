@@ -1,9 +1,17 @@
 @charset "UTF-8";
-caption { font-size: 3rem; line-height: 160%;  font-weight: bold; }
-body { background-color: #ffffea; }
-table { width: 90%; background-color: #E0FF8B; }
-th { text-align: center; color: white; background-color: green; font-size: 50px; }
+a, h1, imig{margin: 0; padding: 0;}
+body{display: flex; flex-direction: column; align-items: center;}
+caption { font-size: 30px; line-height: 160%;  font-weight: bold; }
+table { width: 100%; background-color: #E0FF8B; }
+th { text-align: center; color: white; background-color: green; font-size: 20px; }
 td { background-color: #FAE0D4;  }
-th, td { padding: 1.5rem; }
+th, td { padding: 15px; }
+div{width: 100%;}
 #err { color: red; font-weight: bold; }
-ul{list-style: none;}
+ul{list-style: none;display:flex;margin:0;padding:0}
+header{width: 90%; height: auto; display: flex;justify-content: space-between;}
+footer{width: 90%; text-align: left; background-color: #FAE0D4;}
+.board { display: flex; flex-direction: column; align-items: center; width:90%;}
+.border_page ul{display:flex;justify-content: center;;}
+.border_page a{margin: 0 10px;}
+.board_buttons {display: flex; justify-content: flex-end;}

@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import firstBoard.service.CommandProcess;
 // urlPatterns="*.do", 끝이 .do인 url을 처리하겠다
-@WebServlet(urlPatterns="*.do",	
+@WebServlet(urlPatterns="*.song",	
 	initParams={@WebInitParam(name="config",value="/WEB-INF/command.properties")})
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
