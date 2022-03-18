@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorator">
+							<!-- decorator/hello_decorator.jsp -->
+	<decorator name="main" page="hello_decorator.jsp">
+		<pattern></pattern><!-- hello폴더 안에 있는 모든 프로그램은 이 데코레이터를 참조 -->
+	</decorator>
+	<excludes>
+		<pattern></pattern>
+	</excludes>
+</decorators>
